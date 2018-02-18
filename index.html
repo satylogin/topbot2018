@@ -53,12 +53,20 @@
     <!-- Modernizer js -->
     <script src="js/modernizr.custom.js"></script>
 
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+     <script src="text/javascript">
+         $('.statistic-counter_two, .statistic-counter, .count-number').counterUp({
+                delay: 10,
+                time: 2000
+            });
+    </script>
 </head>
 
 <body class="index">
@@ -90,12 +98,15 @@
                     <li>
                         <a class="page-scroll" href="#events">EVENTS</a>
                     </li>
-                     <li>
+                    <li>
                         <a class="page-scroll" href="#timeline">TIMELINE</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="workshop/index.html">WORKSHOP</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#register">REGISTRATION</a>
-                    </li>-->
+                    </li>
                     <!--<li>
                         <a class="page-scroll" href="#">WORKSHOP</a>
                     </li>-->
@@ -396,6 +407,47 @@
             
     </section><br><br><br>
     <!--end of timeline-->
+     <!--Counter Section-->
+    <!--<section id="counter_two" class="counter_two">
+            <div class="overlay">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="main_counter_two sections text-center">
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-3 col-xs-12">
+                                        <div class="single_counter_two_right">
+                                            <i class="fa fa-lg fa-users"></i>
+                                            <h2 class="statistic-counter_two">3</h2><br>
+                                            <h2>THEMES</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3  col-md-3 col-xs-12">
+                                        <div class="single_counter_two_right">
+                                            <i class="fa fa-line-chart fa-2x"></i>
+                                            <h2 class="statistic-counter_two">10</h2><br>
+                                            <h2>COLLEGES</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3  col-md-3 col-xs-12">
+                                        <div class="single_counter_two_right">
+                                            <i class="fa fa-heart"></i>
+                                            <h2 class="statistic-counter_two">300</h2><br>
+                                            <h2>PARTICIPANTS</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-md-3 col-xs-12">
+                                        <div class="single_counter_two_right">
+                                            <i class="fa fa-gift"></i>
+                                            <h2 class="statistic-counter_two">100000</h2><br>
+                                            <h2>PRIZE</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section><br><br><br><!-- End off Counter section -->
      <!-- Start registration Section -->
     <section id ="register" class="call-to-action">
         <div class="container">
@@ -804,6 +856,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
+   
 
 </body>
 
